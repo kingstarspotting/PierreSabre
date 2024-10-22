@@ -18,7 +18,7 @@ public class Humain {
 		return argentPossedee;
 	}
 	
-	private void parler(String texte) {
+	public void parler(String texte) {
 		System.out.println("(" +nom + ")" + " - « " +  texte + " »");
 	}
 	
@@ -41,11 +41,11 @@ public class Humain {
 		
 	}
 	
-	private void gagnerArgent(int gain) {
+	public void gagnerArgent(int gain) {
 		argentPossedee += gain;
 	}
 	
-	private void perdreArgent(int perte) {
+	public void perdreArgent(int perte) {
 		argentPossedee -= perte;
 	}
 	
